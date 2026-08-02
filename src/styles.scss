@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Includes padding/borders in element total width/height */
+    margin: 0;
+    /* Removes default outer spacing */
+    padding: 0;
+    /* Removes default inner spacing */
+}
+
+body {
+    background-color: rgba(4, 1, 19, 0.904);
+}
+
+.main {
+    // color: rgb(26, 220, 74);
+    border: 2px solid rgb(0, 240, 144);
+    border-radius: 20px;
+    width: 90%;
+    // position: absolute;
+    background-color: rgba(218, 213, 213, 0.668);
+    // top: 10px;
+    padding: 1%;
+    margin: 0 auto;
+
+    .title {
+        padding-bottom: inherit;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+}

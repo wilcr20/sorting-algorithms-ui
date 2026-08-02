@@ -1,1 +1,13 @@
-<p>home works!</p>
+<div class="main">
+    <div class="title">
+        <h2>Sorting algorithms</h2>
+    </div>
+    <section>
+        <p>Here we have some sorting algorithms</p>
+        <ul>
+            @for (page of pagesUrl; track $index) {
+            <li><a href="{{page.url}}">{{page.label}}</a></li>
+            }
+        </ul>
+    </section>
+</div>
